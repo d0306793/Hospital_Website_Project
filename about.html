@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Gulu University Teaching Hospital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/images/logo.png" alt="Gulu University Teaching Hospital Logo" class="logo">
+        <span class="brand-text">Gulu University Teaching Hospital</span>
+      </a>
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </label>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="appointment.html">Appointment</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </nav>
+      <a href="appointment.html" class="btn btn-primary header-cta">Book Appointment</a>
+    </div>
+  </header>
+
+  <main class="container" style="padding:1.75rem 0;">
+    <section class="card">
+      <h1>About Gulu University Teaching Hospital</h1>
+      <p class="muted">Committed to compassionate, modern healthcare for Gulu and the Northern region.</p>
+    </section>
+
+    <section class="card" style="margin-top:1rem;">
+      <h2>Our History</h2>
+      <p>
+        Established to support medical education and regional healthcare, Gulu University Teaching Hospital has grown from a teaching clinic into a major referral and training centre.
+        Over the years we expanded clinical services, built diagnostic and surgical capacity, and strengthened partnerships with community health programmes and the university.
+      </p>
+    </section>
+
+    <section class="card" style="margin-top:1rem;">
+      <h2>Mission</h2>
+      <p>
+        To provide safe, equitable and patient-centred healthcare while training the next generation of clinicians and advancing health through research and community engagement.
+      </p>
+    </section>
+
+    <section class="card" style="margin-top:1rem;">
+      <h2>Vision</h2>
+      <p>
+        To be the leading teaching hospital in the region — delivering clinical excellence, fostering innovation in medical education, and improving population health.
+      </p>
+    </section>
+
+    <section class="card" style="margin-top:1rem;">
+      <h2>Values</h2>
+      <ul>
+        <li><strong>Compassion</strong> — respect and empathy for patients and families.</li>
+        <li><strong>Quality</strong> — safe, evidence-based clinical care and continuous improvement.</li>
+        <li><strong>Integrity</strong> — transparency, accountability and ethical practice.</li>
+        <li><strong>Collaboration</strong> — multidisciplinary teamwork and community engagement.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Gulu University Teaching Hospital</h4>
+        <p>Gulu, Northern Region, Uganda — Phone: +256 39 1234567</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="appointment.html">Appointments</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="muted">© <span id="year"></span> Gulu University Teaching Hospital. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

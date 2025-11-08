@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gulu University Teaching Hospital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/images/logo.png" alt="Gulu University Teaching Hospital Logo" class="logo">
+        <span class="brand-text">Gulu University Teaching Hospital</span>
+      </a>
+
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="appointment.html">Appointment</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </nav>
+
+      <a href="appointment.html" class="btn btn-primary header-cta">Book Appointment</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Excellence in Healthcare & Medical Education</h1>
+          <p>Serving Northern Uganda with advanced medical care and training tomorrow's healthcare professionals.</p>
+          <div class="hero-actions">
+            <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
+            <a href="about.html" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="assets/images/hero.jpg" alt="Gulu University Teaching Hospital building" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services container">
+      <h2>Our Services</h2>
+      <p class="section-sub">Comprehensive healthcare and medical education excellence.</p>
+      <div class="grid grid-3">
+        <article class="card">
+          <img src="assets/images/service1.jpg" alt="" class="card-img">
+          <h3>Emergency Care</h3>
+          <p>24/7 emergency department with on-site specialists and rapid diagnostics.</p>
+        </article>
+        <article class="card">
+          <img src="assets/images/service2.jpg" alt="" class="card-img">
+          <h3>Clinical Training</h3>
+          <p>Medical education programs and hands-on clinical experience for students.</p>
+        </article>
+        <article class="card">
+          <img src="assets/images/service3.jpg" alt="" class="card-img">
+          <h3>Specialist Care</h3>
+          <p>Advanced medical services across multiple specialties and departments.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <div class="grid grid-2">
+        <div class="highlight">
+          <h3>Online Appointments</h3>
+          <p>Schedule consultations easily through our secure booking system.</p>
+          <a href="appointment.html" class="btn btn-outline">Book Now</a>
+        </div>
+        <aside class="news">
+          <h3>Hospital Updates</h3>
+          <ul class="news-list">
+            <li><a href="news.html#covid">Updated COVID-19 protocols for visitors</a></li>
+            <li><a href="news.html#training">New medical training programs</a></li>
+            <li><a href="news.html#community">Community health outreach schedule</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Gulu University Teaching Hospital</h4>
+        <p>Gulu, Northern Region, Uganda — Phone: +256 39 1234567</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="appointment.html">Appointments</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="muted">© <span id="year"></span> Gulu University Teaching Hospital. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

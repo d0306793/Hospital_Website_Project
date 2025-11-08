@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clinical Departments - Gulu University Teaching Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <img src="assets/images/logo.png" alt="Gulu University Teaching Hospital Logo" class="logo">
+                <span class="brand-text">Gulu University Teaching Hospital</span>
+            </a>
+
+            <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </label>
+
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="departments.html" class="active">Departments</a></li>
+                    <li><a href="appointment.html">Appointment</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </nav>
+
+            <a href="appointment.html" class="btn btn-primary header-cta">Book Appointment</a>
+        </div>
+    </header>
+
+    <main class="container departments-page">
+        <section class="page-header">
+            <h1>Clinical Departments</h1>
+            <p class="muted">Comprehensive healthcare services and medical education excellence in Northern Uganda.</p>
+        </section>
+
+        <section class="departments-grid">
+            <article class="department-card">
+                <div class="dept-icon emergency"></div>
+                <h3>Emergency Department</h3>
+                <p>24/7 emergency care for acute illness and injury. Triage, rapid diagnostics, resuscitation and stabilisation with specialist teams available.</p>
+                <p class="dept-meta">
+                    <span class="badge">24/7 Service</span>
+                    <span class="badge">Critical Care</span>
+                </p>
+            </article>
+
+            <article class="department-card">
+                <div class="dept-icon cardiology"></div>
+                <h3>Cardiology</h3>
+                <p>Comprehensive cardiac care including ECG, echocardiography, cardiac rehabilitation and preventive cardiology services.</p>
+                <p class="dept-meta">
+                    <span class="badge">Heart Care</span>
+                    <span class="badge">Diagnostics</span>
+                </p>
+            </article>
+
+            <article class="department-card">
+                <div class="dept-icon pediatrics"></div>
+                <h3>Pediatrics</h3>
+                <p>Child healthcare from newborns to adolescents. Immunization, developmental assessment and specialized pediatric services.</p>
+                <p class="dept-meta">
+                    <span class="badge">Child Health</span>
+                    <span class="badge">Family Care</span>
+                </p>
+            </article>
+
+            <article class="department-card">
+                <div class="dept-icon surgery"></div>
+                <h3>Surgery</h3>
+                <p>General and specialized surgical services with modern operating theaters and experienced surgical teams.</p>
+                <p class="dept-meta">
+                    <span class="badge">Surgery</span>
+                    <span class="badge">Day Care</span>
+                </p>
+            </article>
+
+            <article class="department-card">
+                <div class="dept-icon radiology"></div>
+                <h3>Radiology</h3>
+                <p>Advanced imaging services including X-ray, ultrasound, CT scan and MRI with expert interpretation.</p>
+                <p class="dept-meta">
+                    <span class="badge">Imaging</span>
+                    <span class="badge">Diagnostics</span>
+                </p>
+            </article>
+
+            <article class="department-card">
+                <div class="dept-icon maternity"></div>
+                <h3>Maternity</h3>
+                <p>Complete maternal care including antenatal services, delivery, postnatal care and women's health services.</p>
+                <p class="dept-meta">
+                    <span class="badge">Maternal Care</span>
+                    <span class="badge">Family Health</span>
+                </p>
+            </article>
+        </section>
+
+        <section class="contact-info card">
+            <h2>Need Medical Assistance?</h2>
+            <p>Contact our reception at +256 39 1234567 or schedule an appointment online. For emergencies, visit our Emergency Department immediately.</p>
+            <div class="action-buttons">
+                <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
+                <a href="tel:+256391234567" class="btn btn-outline">Call Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h4>Gulu University Teaching Hospital</h4>
+                <p>Gulu, Northern Region, Uganda — Phone: +256 39 1234567</p>
+            </div>
+            <nav aria-label="Footer">
+                <ul class="footer-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="appointment.html">Appointments</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p class="muted">© <span id="year"></span> Gulu University Teaching Hospital. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
